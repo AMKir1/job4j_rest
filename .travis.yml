@@ -9,9 +9,9 @@ sudo: false
 install: true
 
 # for codecov.io
-#env:
-#  global:
-#    - CODECOV_TOKEN=""
+env:
+  global:
+    - CODECOV_TOKEN="c32b1f30-f46f-47f0-af5c-4d7823a813d0"
 
 services:
   - postgresql
