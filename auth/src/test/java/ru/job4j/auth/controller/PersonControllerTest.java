@@ -62,7 +62,7 @@ public class PersonControllerTest {
     @Test
     public void whenAdd() throws Exception {
         Person p = Person.of(4, "newUser", "123");
-        when(personController.create(any(Person.class))).thenReturn(new ResponseEntity<Person>(p, HttpStatus.OK));
+        when(personController.create(any(Person.class))).thenReturn(new ResponseEntity<>(p, HttpStatus.OK));
         mockMvc.perform(post("/person/")
                 .contentType(MediaType.APPLICATION_JSON)
                 .content("{\"login\":\"newUser\",\"password\":\"123\"}"))
