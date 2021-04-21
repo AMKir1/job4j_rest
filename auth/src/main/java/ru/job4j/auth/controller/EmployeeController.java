@@ -17,7 +17,7 @@ public class EmployeeController {
 
     private final EmployeeRepository repo;
 
-    EmployeeController(final EmployeeRepository repo) {
+    public EmployeeController(final EmployeeRepository repo) {
         this.repo = repo;
     }
 

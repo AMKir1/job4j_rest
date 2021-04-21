@@ -12,7 +12,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.test.web.servlet.MockMvc;
 import ru.job4j.auth.AuthApplication;
 import ru.job4j.auth.domain.Person;
-
 import java.util.Arrays;
 
 import static org.hamcrest.Matchers.hasSize;
